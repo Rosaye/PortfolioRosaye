@@ -16,6 +16,17 @@ class FirstController extends Controller
         return view("firstcontroller.admin");
     }
 
+    public function store(Request $request){
+        dd($_FILES, $request->file('photo'));
+        // return $request->input('title'); // Récupérer le titre de la chanson qui vient d'être post
+        $photo = new Photo(); 
+        $photo->title = $request->input('title');
+        $photo->url = $request->input('url');
+        $photo->save();
+    
+        return redirect("/");
+    }
+
     public function about() {
         return view("firstcontroller.about");
     }

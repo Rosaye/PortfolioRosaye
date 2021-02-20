@@ -18,6 +18,10 @@ Route::get('/', [FirstController::class, 'index']);
 
 Route::get('/about', [FirstController::class, 'about']);
 
-Route::get('/admin', [FirstController::class, 'admin']);
+Route::get('/add/admin', [FirstController::class, 'admin']);
+Route::post('/add', [FirstController::class, 'store']);
+
+//Route::get('/songs/create', [FirstController::class, "create"])->middleware('auth');
+//Route::post('/songs', [FirstController::class, "store"])->middleware('auth');
 
 Route::get('/projets/{id}', [FirstController::class, 'projets'])->where('id', '[0-9]+');
