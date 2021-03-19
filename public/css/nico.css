@@ -378,20 +378,36 @@ i {
   /* header section */
   .about-header {
     margin-top: 10vh;
+    margin-bottom: 10vh;
   }
+
+
+  .imgprofile {
+    width: 50%;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+
+  .imgprofiletext {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+
+
   /* fin header section */
 
-  /* hero section */
-  
-  /* fin hero section */
+
+
 
   /* Charts container */
 
   .chart-container {
-    margin-bottom: 100px;
+    margin-bottom: 10vh;
   }
 
   .chart-container-desc {
+    margin-top: 5vh;
     margin-right: 10vh;
     margin-left: 10vh;
   }

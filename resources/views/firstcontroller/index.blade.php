@@ -38,7 +38,7 @@
 
 <div class="container-md cv">
     <div>
-        <button class="cv1 btn btn-dark" download>téléchargez mon cv !</button>
+        <a href="https://i.ibb.co/KW8Fyt1/cv-pageweb-nicolasrosaye-white-fr-1.jpg" class="appear btn btn-dark">Téléchargez mon cv!</a>
     </div>
 </div>
 
