@@ -8,10 +8,10 @@
 
 <div class="container about-hero">
     <div class="row justify-content-md-center">
-      <div class="col-md-auto">
-        <img width="100%" src="/images/Nicolas_face.png" alt="">
+      <div class="col-md-6">
+        <img width="50%" src="https://i.ibb.co/8BCkKgh/pdp.png" alt="">
       </div>
-      <div class="col col-lg-2 ">
+      <div class="col-md-6">
         <p class="align-middle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque tempore laboriosam eligendi optio harum odit dolorem ea non quia ducimus, esse officiis explicabo facere assumenda molestias alias voluptatibus quos asperiores.</p>
       </div>
     </div>

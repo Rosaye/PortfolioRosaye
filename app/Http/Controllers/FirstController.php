@@ -39,6 +39,7 @@ class FirstController extends Controller
         
         return view('firstcontroller.projets', ["id" => $id, "titre" => $titre]);
         
+        
     }
 
 }

@@ -36,6 +36,13 @@
     </div>
 </div>    
 
+<div class="container-md cv">
+    <div>
+        <button class="cv1 btn btn-dark" download>téléchargez mon cv !</button>
+    </div>
+</div>
+
+
 
 
 

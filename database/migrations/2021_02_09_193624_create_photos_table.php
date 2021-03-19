@@ -17,6 +17,12 @@ class CreatePhotosTable extends Migration
             $table->id();
             $table->string('titre', 255);
             $table->string('url', 255);
+            $table->string('urlp1', 255);
+            $table->string('urlp2', 255);
+            $table->string('urlp3', 255);
+            $table->string('urlp4', 255);
+            $table->string('urlp5', 255);
+
             $table->timestamps();
         });
     }
